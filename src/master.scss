@@ -1,0 +1,26 @@
+@import "partials/variables";
+@import "partials/mixin";
+@import "partials/common";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/learn_things";
+@import "partials/collabotations";
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+h1{
+	color: $brand_primary;
+}
+p{
+	color: $brand_primary;
+}
+div{
+	color: $brand_primary;
+}
+div{
+	background-color: $brand_primary;
+}
