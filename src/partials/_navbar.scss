@@ -10,13 +10,14 @@
 
 		
 		img{
-			height: 25px;
 			position: absolute;
 			top: 50%;
 			transform: translate(0, -50%);
+			height: 25px;
 		}
 	}
 	ul{
+		height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;

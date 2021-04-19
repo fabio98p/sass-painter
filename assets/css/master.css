@@ -74,12 +74,13 @@
   background-color: #1E1E1E;
 }
 #navbar .logo img {
-  height: 25px;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+  height: 25px;
 }
 #navbar ul {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -96,7 +97,8 @@
 
 #jumbotron {
   padding-top: 90px;
-  background-color: #fafa66;
+  background-image: url("../../assets/img/bg-painter-home.jpg");
+  background-position: right;
 }
 #jumbotron .text {
   padding: 70px 0;
