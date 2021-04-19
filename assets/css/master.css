@@ -5,18 +5,165 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: #66cc33;
+.btn {
+  padding: 10px 25px;
 }
 
-p {
-  color: #66cc33;
+.btn_black {
+  background-color: black;
+  color: white;
 }
 
-div {
-  color: #66cc33;
+.btn_void {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
 }
 
-div {
-  background-color: #66cc33;
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.no_style {
+  list-style-type: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.w_70 {
+  margin: 0 auto;
+  width: 70%;
+}
+
+#contact_us {
+  content: "";
+  clear: both;
+  display: table;
+  height: 40px;
+  line-height: 40px;
+  background-color: #1E1E1E;
+  width: 100%;
+}
+#contact_us .float_right ul li {
+  margin-right: 20px;
+  display: inline-block;
+}
+#contact_us .float_right ul li i {
+  color: #0099F5;
+  font-size: 20px;
+  vertical-align: middle;
+}
+#contact_us .float_right ul li div {
+  display: inline-block;
+  color: #4F575E;
+  font-size: 16px;
+}
+
+#navbar {
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  padding-top: 5px;
+  background-color: #1E1E1E;
+}
+#navbar .logo img {
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 130px;
+}
+#navbar ul li {
+  color: white;
+}
+#navbar ul li i {
+  color: #4F575E;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+#jumbotron {
+  padding-top: 90px;
+  background-color: #fafa66;
+}
+#jumbotron .text {
+  padding: 70px 0;
+}
+#jumbotron .text img {
+  width: 250px;
+}
+#jumbotron .text .introduction {
+  margin-top: 30px;
+  font-size: 20px;
+}
+#jumbotron .text .offer {
+  margin-top: 50px;
+  color: #CD2FB3;
+}
+#jumbotron .text .offer h4 {
+  font-weight: bold;
+}
+#jumbotron .text button {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+nav {
+  position: fixed;
+}
+
+#learn_things {
+  padding-top: 40px;
+}
+#learn_things h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+#learn_things .cards {
+  display: flex;
+  justify-content: space-between;
+}
+#learn_things .cards .card {
+  margin: 0 10px;
+  background-color: white;
+}
+#learn_things .cards .card img {
+  width: 100%;
+}
+#learn_things .cards .card .text {
+  margin: 20px;
+}
+#learn_things .cards .card .text h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#learn_things .cards .card .text h3 .new {
+  font-size: 17px;
+  color: #4AA5FF;
+  text-transform: uppercase;
+  font-style: italic;
+  display: inline-block;
+  margin-right: 5px;
+}
+#learn_things .cards .card .text .learn_more {
+  color: #4AA5FF;
+  margin-top: 20px;
+}
+
+main {
+  background-color: lightgrey;
 }

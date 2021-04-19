@@ -1,0 +1,26 @@
+
+#contact_us{
+	@include clearfix;
+	height: 40px;
+	line-height: 40px;
+	background-color: $color_dark;
+	width: 100%;
+	.float_right{
+		ul{
+			li{
+				margin-right: 20px;
+				display: inline-block;
+				i{
+					color: $color_blue;
+					font-size: 20px;
+					vertical-align: middle;
+				}
+				div{
+					display: inline-block;
+					color: $color_grey;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
