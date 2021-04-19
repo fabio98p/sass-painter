@@ -1,0 +1,54 @@
+#collabotations{
+	display: flex;
+	flex-wrap: wrap;
+	.card_text{
+		height: 350px;
+		width: 50%;
+		color: white;
+		padding: 60px;
+		h2{
+			font-size: 30px;
+			font-weight: normal;
+			margin-bottom: 30px
+		}
+		p{
+			font-size: 20px;
+			margin-bottom: 25px;
+		}
+		button{
+			text-transform: uppercase	;
+		}
+		&.wacom{
+			background-color: $color_darkpurple;
+		}
+		&.dragon{
+			background-color: $color_grey;
+		}
+		&.buisness{
+			background-color: $color_lightblue;
+		}
+	}
+	.card_immage{
+		height: 350px;
+		width: 50%;
+		&.wacom{
+			background-image: url("../../assets/img/wacom-painter.jpg");
+			background-position: center;
+			background-size: cover;
+			img{
+				width: 80%;
+			}
+		}
+		&.dragon{
+			background-image: url("../../assets/img/painter-master.jpg");
+			background-position: center;
+			background-size: cover;
+
+		}
+		&.buisness{
+			background-image: url("../../assets/img/business-education.jpg");
+			background-position: center;
+			background-size: cover;
+		}
+	}
+}

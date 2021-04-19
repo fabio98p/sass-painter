@@ -20,6 +20,11 @@
   background-color: transparent;
 }
 
+.btn_white {
+  color: #1E1E1E;
+  background-color: white;
+}
+
 .float_left {
   float: left;
 }
@@ -128,7 +133,7 @@ nav {
 }
 
 #learn_things {
-  padding-top: 40px;
+  padding: 40px 0;
 }
 #learn_things h2 {
   font-size: 30px;
@@ -164,6 +169,60 @@ nav {
 #learn_things .cards .card .text .learn_more {
   color: #4AA5FF;
   margin-top: 20px;
+}
+
+#collabotations {
+  display: flex;
+  flex-wrap: wrap;
+}
+#collabotations .card_text {
+  height: 350px;
+  width: 50%;
+  color: white;
+  padding: 60px;
+}
+#collabotations .card_text h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+#collabotations .card_text p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#collabotations .card_text button {
+  text-transform: uppercase;
+}
+#collabotations .card_text.wacom {
+  background-color: #3C1567;
+}
+#collabotations .card_text.dragon {
+  background-color: #4F575E;
+}
+#collabotations .card_text.buisness {
+  background-color: #4AA5FF;
+}
+#collabotations .card_immage {
+  height: 350px;
+  width: 50%;
+}
+#collabotations .card_immage.wacom {
+  background-image: url("../../assets/img/wacom-painter.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#collabotations .card_immage.wacom img {
+  width: 80%;
+}
+#collabotations .card_immage.dragon {
+  background-image: url("../../assets/img/painter-master.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#collabotations .card_immage.buisness {
+  background-image: url("../../assets/img/business-education.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 main {
